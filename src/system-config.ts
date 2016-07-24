@@ -3,6 +3,7 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'ng2-router-active': 'vendor/ng2-router-active'
 };
 
 /** User packages configuration. */
@@ -25,10 +26,14 @@ const barrels: string[] = [
 
   // Thirdparty barrels.
   'rxjs',
+  'ng2-router-active',
 
   // App specific barrels.
   'app',
   'app/shared',
+  'app/+profile',
+  'app/+repos',
+  'app/+home',
   /** @cli-barrel */
 ];
 
@@ -45,7 +50,9 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
-    'main': 'main.js'
+    'main': 'main.js',
+    'ng2-router-active': 'vendor/ng2-router-active'
+
   },
   packages: cliSystemConfigPackages
 });
