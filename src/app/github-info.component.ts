@@ -19,6 +19,6 @@ import { HomeComponent } from './+home';
   {path: '/', component: HomeComponent}
 ])
 export class GithubInfoAppComponent {
-  title = 'NG2-Github Profile';
+  title = 'NG2 Github Profile';
 
 }
