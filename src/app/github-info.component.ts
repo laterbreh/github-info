@@ -16,7 +16,8 @@ import { HomeComponent } from './+home';
 @Routes([
   {path: '/profile', component: ProfileComponent},
   {path: '/repos', component: ReposComponent},
-  {path: '/', component: HomeComponent}
+  {path: '/', component: HomeComponent},
+  {path: '/github-info', component: HomeComponent}
 ])
 export class GithubInfoAppComponent {
   title = 'NG2 Github Profile';
