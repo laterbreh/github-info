@@ -1,4 +1,7 @@
+# Super Deprecated, maybe look over to see concepts. 
+
 #NG2 Github Info
+
 This was a an example SPA using Angular-CLI to build in NG2. Its a simple app thats scaffolded and uses http requests to get info about my account from Github API. It just demonstrates the basic principals of getting a NG2 App up and going.
 
 Github pages link: https://laterbreh.github.io/github-info/
